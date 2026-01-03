@@ -1,29 +1,46 @@
 # Premium Calculator – LLM Assignment
 
 ## Objective
-To demonstrate how a complex task is built using small primitive functions
-in an LLM-friendly design.
+
+To demonstrate how a complex task is built using small primitive functions in an LLM-friendly design.
+
+---
 
 ## Complex Function
-Premium Calculator
+
+**Premium Calculator**
+
+---
 
 ## Primitive Functions
-- extractData()
-- lookupValue()
-- applyFormula()
+
+- `extractData()`
+- `lookupValue()`
+- `applyFormula()`
+
+---
 
 ## Workflow
-1. Extract age, location, and coverage.
-2. Get base rate using location.
-3. Get risk multiplier using age.
+
+1. Extract age, location, and coverage from the user profile.  
+2. Get base rate using location.  
+3. Get risk multiplier using age.  
 4. Apply premium calculation formula.
 
-Formula:
-Premium = baseRate × riskMultiplier × coverage × 0.01
-# Premium Calculator Project
+**Formula:**  
+`Premium = baseRate × riskMultiplier × coverage × 0.01`
 
-This project calculates insurance premium based on user profile and rates.
+---
 
-## Sample Output
+## Project Description
 
-Premium: 6600.0
+This project calculates insurance premium based on user profile data and rates from lookup tables.
+
+---
+
+## How to Run
+
+Run the Python script using:
+
+```bash
+python premium_calculator.py
