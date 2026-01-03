@@ -20,3 +20,10 @@ Premium Calculator
 
 Formula:
 Premium = baseRate × riskMultiplier × coverage × 0.01
+# Premium Calculator Project
+
+This project calculates insurance premium based on user profile and rates.
+
+## Sample Output
+
+Premium: 6600.0
